@@ -88,7 +88,9 @@ public class NuevoReporteFragment extends Fragment {
         binding.btnGuardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                guardarDatosSQLite();
+                if(valida()){
+                    guardarDatosSQLite();
+                }
             }
         });
 

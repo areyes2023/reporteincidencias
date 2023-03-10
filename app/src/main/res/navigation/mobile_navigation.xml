@@ -17,9 +17,4 @@
         android:label="@string/title_nuevoreporte"
         tools:layout="@layout/fragment_nuevoreporte" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.aplicacion.incidencias.view.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>

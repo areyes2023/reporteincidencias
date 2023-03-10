@@ -8,5 +8,6 @@ public class LoginActivityTest {
 
     @Test
     public void onCreate() {
+
     }
 }
