@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Incidencias</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_consulta">Consulta</string>
+    <string name="title_nuevoreporte">Nuevo</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

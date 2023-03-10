@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_consulta">
+
+    <fragment
+        android:id="@+id/navigation_consulta"
+        android:name="com.aplicacion.incidencias.view.ConsultaFragment"
+        android:label="@string/title_consulta"
+        tools:layout="@layout/fragment_consulta" />
+
+    <fragment
+        android:id="@+id/navigation_nuevoreporte"
+        android:name="com.aplicacion.incidencias.view.NuevoReporteFragment"
+        android:label="@string/title_nuevoreporte"
+        tools:layout="@layout/fragment_nuevoreporte" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.aplicacion.incidencias.view.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
